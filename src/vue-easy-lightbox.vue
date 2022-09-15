@@ -56,6 +56,8 @@
       <img
         style="display:none;"
         :src="visibleImgSrc"
+        alt=""
+        aria-hidden="true"
         @error="handleImgError"
         @load="handleTestImgLoad"
       />
